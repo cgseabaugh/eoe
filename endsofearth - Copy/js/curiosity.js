@@ -1,0 +1,24 @@
+
+class Curiosity{
+    constructor(name, level, skill, premise, choiceA, choiceB, choiceC, success, fail, keyType, key){
+        this.name = name;
+        this.level = level;
+        this.skill = skill;
+        this.premise = premise;
+        this.choiceA = choiceA;
+        this.choiceB = choiceB;
+        this.choiceC = choiceC;
+        this.success = success;
+        this.fail = fail;
+        this.keyType = keyType;
+        this.key = key;
+    }
+}
+
+var trappedPredator = new Curiosity("Trapped Predator", 1, "Courage", "Pinned by the maw of a hunter's trap struggles a rather magnificent creature. A cunning apex predator by the look of it with intelligence behind its frightening eyes. Its fate is sealed without help, but it is difficult to stomach the idea of what a creature like that could do to you, once freed.", "Help free the animal.", "Leave the animal to its fate.", "Use Brightbud on the animal.", "You stare the creature down, matching it in intensity, and carefully reach for the trap. It bares enormous fangs, but does not bite. You pry the metal maw apart and stay calm as the creature frees itself. It looks upon you more desirably, and leaves your you a gift before vanishing into the woods.", "Try as you might, the creature snarls and snaps at every attempt you make to get near the trap. There's nothing you can do for it.", brightbud, "You retrieve a brightbud from your belongings. As its pungent aroma wafts towards the trapped animal, it immediately stills and waits patiently for you. It gently takes the brightbud from your hand as you disarm the trap. Before vanishing into the woods, the strangly docile creature leaves you a gift.");
+
+var strangeObelisk = new Curiosity("Strange Obelisk", 1, "Guile", "You stumble upon a bizarre sight: a black obelisk protrudes from the ground and stands a dozen or so feet tall. Engraved against its four size are enigmatic runes which seem to vibrate with some strange power. It strengthens the longer you hold your hand to it, but it is said that such black magic lead to the Curse, and you cannot know what such a thing will do to you.", "Commune with the Obelisk.", "Leave this evil place.", "Use a Small Dose of Ichor on the Obelisk.", "But these runes are not so unfamiliar to you, afterall. You press your hand against the obelisk as it warms to a nearly skin-burning temperature. You etch several runes into your psyche as though you can communicate with the obelisk. As the heat subsides and the vibrations slow to a stop, you feel yourself renewed and feeling remarkably reenergized.", "You press your hand to the obelisk, but while you at first felt the pinpricks of its magical energy, now the stone feels cold and empty. There's nothing more you can do to it.", small_dose_of_ichor, "You press your hand against the obelisk, but instead feel its vibrations resonating within the dose of ichor you hold in your hand. The dose suddenly seems heavier.");
+
+var serpentsFruit = new Curiosity("Serpent's Fruit", 1, "Instinct", "From a rather dried and pitiful plant hangs a fascinatingly succulent fruit. It is the Serpent's Fruit, and its bright, flowing colors signify its ripeness. Unripened Serpent's Fruit is terribly toxic and sometimes fatal. But when it ripens can mend bones and renew life. It's not always easy to tell the difference, however.", "Eat the Serpent's Fruit", "Leave the fruit alone.", "Pour Holy Water on the Serpent's Fruit.", "You bite into the fruit, and you are washed by a flavor so dilectable you can hardly understand it. With each bite, you feel the strength of your body returning to you.", "You take a hesitant bite of the fruit, but instantly regret it as the vile, bitter juices touch your lips. The mere pungency of its flesh makes you dizzy and what few drops landed in your mouth make your stomach roll and nearly bring you to your knees.", holy_water, "Unripened Serpent's Fruit burns away at the touch of Holy Water. Yet it simply flows off of this fruit. You take a bite and are washed by a flavor so dilectable you can hardly understand it. With each bite, you feel the strength of your body returning to you.");
+
+var chestOne = new Curiosity("Chest", 1, "Luck", "Propped in an open clearing rests a classically styled chest with what could be something valuable inside. Peculiar items are often left behind by hapless fools who never do return, despite their intentions.", "Open the Chest.", "Leave the Chest be.", "Use a Skeleton Key on the Chest", "You carefully lift the lid of the chest and it swings open with ease. Its contents are free for the taking.", "You lift the lid of the chest, but its locking mechanism catches. It's sealed tight.", skeleton_key, "The Skeleton Key fits clumsily into the keyhole and after some struggle you hear the lock click open. The lid lifts easily and the contents of the chest are free for the taking.");

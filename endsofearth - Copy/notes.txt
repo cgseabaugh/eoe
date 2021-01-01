@@ -1,0 +1,59 @@
+
+
+explore
+search
+use nearby
+
+fight 12345
+challenge 6
+npc 7 
+subdungeon 8
+curio 9 
+item 10
+
+Challenges prevent you from further exploring until it has been overcome.
+In order to overcome a challenge, you must either pass or fail a skill check which is determined by the type of challenge it is.
+If you pass, you overcome the challenge without any consequences.
+If you fail, the challenge is still considered to have been overcome, but you are forced to accept an often negative consequence.
+If you are certain you will fail, you can avoid the challenge entirely at the cost of your Energy. This isn't an option if you have 0 energy.
+
+Challenges, Level One, Petrified Woods
+    Courage
+        1. Canyon
+            The path gives way to deep canyon.
+                Upon a successful Courage Check, the player can leap across safely.
+                Upon a failed Courage Check, the player falls in, sustains damage, and climbs up the other side to safety.
+                If avoided, player spends energy going off the path and around the canyon.
+                Rope can be used to freely overcome this challenge.
+    Guile
+        1. Thornbush
+            The path is blocked by a sprawling and viciously-thorned hedge.
+                Upon a successful Guile Check, the player manages to inch through the bushes without sustaining any damage.
+                Upon a failed Guile Check, the player is badly damaged after pressing through the bushes.
+                If avoided, player spends energy going off the path and around the thornbush.
+                A Torch can be used to freely overcome this challenge.
+    Instinct
+        1. Colossus
+            The path is blocked by a colossal herbavore which lowers its head to charge when you get near.
+                Upon a successful Instinct check, the player is able to calm the animal and pass by it safely.
+                Upon a failed Instinct check, the player is knocked unconcious by the animal and wakes up after it has left.
+                If avoided, the player spends energy going off the path and around the colossus.
+                Brightbud can be used to freely overcome this challenge. 
+    Luck
+        1. Bandits
+            The path is blocked by bandits who demand tribute for your passage.
+                Upon a successful Luck check, the player convinces the bandits to allow passage.
+                Upon a failed Luck check, the player is ambushed by bandits. Initialize combat.
+                If avoided, the player spends energy going off the path and around the bandits.
+                A level-dependent amount of money can be used to freely overcome this challenge.
+
+Curiosities, Level One, Petrified Woods
+    Courage
+        1. Trapped Predator
+            A dangerously beautiful creature
+    Guile
+        1. Strange Obelisk
+    Instinct
+        1. Item Lure
+    Luck
+        1. Mysterious Fruit
